@@ -1,0 +1,165 @@
+.afk h2{
+    color: black;
+    text-align: left;
+    font-size: 40px;
+    width: 600px;
+    font-weight: 600;
+}
+
+.afk{
+    display: flex;
+  align-items: center;
+  padding-left: 200px;
+    justify-content: center;
+    flex-direction: row;
+    gap:10px;
+    width:1500px;
+   
+}
+.afk p{
+    
+    font-size: 30px;
+    text-align: left;
+    font-weight: 500;
+}
+.afk-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border-radius: 30px;
+    width:300px;
+    gap:10px;
+   
+}
+.afk-2 p{
+color: white;
+padding-bottom: 5px;
+}
+.afk-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    font-weight: 700;
+}
+.afk-2:hover{
+    background-color: white;
+    
+}
+.afk-2:hover p{
+    color: black;
+}
+
+@media (min-width:1024.1px) and (max-width:1366px){
+    .afk{
+        width: 85rem;
+    }
+    .afk-4 h2{
+        font-size: 2rem;
+    }
+    .afk-4 p{
+        font-size: 1.5rem;
+        width: 30rem;
+        
+    }
+   .afk img:last-child{
+    width: 40rem;
+    margin-right: 30rem;
+   }
+   
+}
+@media (min-width:768px) and (max-width: 1024px){
+    .afk-4 h2{
+        font-size: 4rem;
+        width: 100rem;
+    }
+    .afk-4 p{
+        font-size: 3rem;
+    }
+    .afk{
+        display: flex;
+        flex-direction: column;
+    }
+    .afk-2{
+        display: flex;
+        align-self: start;
+        width: 40rem;
+    }
+    .afk-2 p{
+        font-size: 3.5rem;
+    }
+    .afk-2 img{
+        height: 6rem;
+        max-width: 7rem;
+    }
+    .afk img{
+        width: 100rem;
+    }
+}
+@media (min-width:600.03px) and (max-width: 768px){
+    .afk-4 h2{
+        font-size: 4rem;
+        width: 100rem;
+    }
+    .afk-4 p{
+        font-size: 3rem;
+    }
+    .afk{
+        display: flex;
+        flex-direction: column;
+    }
+    .afk-2{
+        display: flex;
+        align-self: start;
+        width: 40rem;
+    }
+    .afk-2 p{
+        font-size: 3.5rem;
+    }
+    .afk-2 img{
+        height: 6rem;
+        max-width: 7rem;
+    }
+    .afk img{
+        width: 100rem;
+    }
+   
+}
+@media(max-width:600px){
+    .afk-4 h2{
+        font-size: 4rem;
+        width: 70rem;
+    }
+    .afk-4 p{
+        width: 70rem;
+        font-size: 3rem;
+    }
+    .afk{
+        display: flex;
+      align-items: flex-start;
+      padding-left: 200px;
+        justify-content: center;
+        flex-direction: column;
+        gap:10px;
+        width:100rem;
+    }
+    .afk-2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: red;
+        width:40rem;
+        align-self: start;
+    }
+    .afk-2 p{
+        font-size: 4rem;
+    }
+    .afk-2 img{
+       height: 5rem; 
+    }
+}

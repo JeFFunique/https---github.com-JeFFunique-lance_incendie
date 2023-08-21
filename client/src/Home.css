@@ -1,0 +1,1452 @@
+
+
+body{
+  overflow-x: hidden;
+  width: 100%;
+}
+.App {
+
+  text-align: center;
+ 
+  width:1920px;
+  height: 1080px;
+ 
+}
+.text-6{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+ 
+
+ 
+}
+.btn-2{
+  
+  height: 40px;
+  
+
+}
+.linka-2{
+  cursor: pointer;
+}
+
+
+.containera{
+ height:190px;
+ width: 100%;
+ background-color: red;
+ display: flex;
+ justify-content: space-around;
+}
+.texts{
+  width: 300px;
+  padding-top:48px;
+  padding-left:80px;
+  color:white;
+  font-family: Calibri;
+  
+
+}
+.linka{
+  text-decoration: none;
+  color:white;
+}
+.explain{
+ width:800px;
+
+
+ font-weight: 600;
+ text-align: left;
+ animation: slideright 1s forwards;
+ animation-duration: 2s;
+  
+}
+.explain-2{
+  font-weight: 900;
+}
+@keyframes slideright{
+  0%{
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+.mid {
+  height:400px;
+display: flex;
+align-items: flex-start;
+justify-content: center;
+ width: 100%;
+  color:white;
+  font-size: 25px;
+ 
+}
+.overlay{
+  animation: slideleft 1s forwards;
+  animation-duration: 1s; 
+}
+.ok{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  gap:7px;
+  height: 40px;
+  float: left;
+  background-color: red;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  border-radius: 30px;
+
+}
+
+.bg{
+  color:white;
+}
+.ok:hover{
+ background-color: white;
+}
+.ok:hover .bg{
+  color:black;
+}
+
+
+.btn{
+  background-color: red;
+  border-radius: 30px;
+  padding-right:15px;
+  padding-left:15px;
+  text-decoration: none;
+  width:150px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.btn:hover a{
+color: black;
+
+}
+.btn:hover{
+  background-color: white;
+  
+ 
+}
+.ftx{
+ color: white;
+ text-decoration: none;
+
+}
+.video2{
+ position: absolute;
+ z-index: -1;
+ height:400px;
+ width: 101%;
+ object-fit: cover;
+}
+.text-4{
+  text-decoration: none;
+  padding-left:4px;
+  color: red;
+}
+
+.btn-1{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+  margin-top: 120px;
+  
+  
+  background-color: white;
+  text-align: center;
+ height: 60px;
+  border-radius: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  cursor: pointer;
+ 
+ 
+  
+}
+.btn-1:hover a{
+color:black;
+}
+
+.container{
+  display:flex;
+  justify-content: space-between;
+  
+}
+.container-2{
+  overflow: hidden;
+ 
+  
+}
+
+.sous-activite{
+  width:550px;
+  
+  color:red;
+  padding-left: 200px;
+}
+.conseils{
+  width:480px;
+  text-align: left;
+  padding-left:200px;
+  font-weight: 500;
+  font-size: 20px;
+  
+
+}
+@keyframes slideleft{
+  0%{
+    transform: translate(100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0px);
+    opacity: 1;
+  }
+}
+.image2{
+padding-top:30px;
+padding-left:30px;
+
+
+}
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: red;
+  
+  color: white;
+}
+.frame{
+  background-color: black;
+  color: white;
+  width: 150px;
+  height: 60px;
+  border-radius: 30px;
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.frame:hover{
+  background-color: rgba(255,255,255, 0.3);
+}
+.frame p {
+  color:white;
+}
+.footer{
+  display: flex;
+  justify-content: space-between; 
+  background-color: red;
+  
+ 
+ 
+  
+}
+.text-3{
+  padding-bottom:2px;
+  padding-left:20px;
+}
+.imagea{
+  width:30px;
+}
+
+.propos{
+  
+
+padding-right: 40px;
+color: red;
+text-decoration: underline;
+
+
+
+
+}
+.allah{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap:100px;
+}
+.footer-2{
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  text-align: left;
+}
+.footer-3{
+  color: white;
+}
+.footer-3 a{
+  text-decoration: none;
+  color: white;
+}
+.footer-4{
+  color:white;
+}
+.socials{
+  cursor: pointer;
+}
+.socials-2{
+  cursor: pointer;
+}
+.socials-2:hover{
+  color: black;
+
+}
+
+
+
+.description{
+
+  width:450px;
+ 
+  font-weight:500;
+  font-size: 20px;
+  text-align: left;
+  
+
+  
+  
+}
+.eda{
+  padding-right: 550px;
+  padding-top:50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.activite{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+justify-content: space-between;
+flex-direction: column;
+}
+.activite-6{
+  display: flex;
+  gap:5px;
+}
+.activite-1{
+  color:red;
+}
+.activite-1 h1{
+  color: black;
+}
+
+.text-2{
+  font-size: 20px;
+  text-align: left;
+  width:400px;
+}
+
+.menu{
+  width: 700px;
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+
+.dropdown-content{
+  display: flex;
+  position: absolute;
+  background-color: #f1f1f1;
+  height: 570px;
+  max-width: 400px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  overflow-x:hidden;
+  white-space: nowrap;
+}
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+.linka-2{
+  color:white;
+  
+  
+  
+  
+  
+}
+.linka-2:hover .dropdown-content{
+ display: flex;
+flex-direction: row;
+
+
+ 
+}
+.ads{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dropdown-content-1{
+display: inline-block;
+width:100%;
+text-align:left;
+
+
+ 
+ 
+}
+
+.curva{
+  color: black;
+  text-align: center;
+  padding-right:30px;
+ 
+  
+}
+.ada:hover .dropdown-content-2{
+  display: block;
+  transform: translateX(100px);
+ 
+}
+.dropdown-content-2{
+  display: none;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: #f1f1f1;
+}
+@media (min-width:2240px) {
+.containera{
+  width: 160rem;
+
+}
+.allah{
+  margin-right: 30rem;
+}
+.video2{
+  margin-right: 30rem;
+  width: 200rem;
+}
+.overlay{
+  margin-right: 30rem;
+}
+.activite{
+  width: 160rem;
+}
+.activite-1{
+  margin-right: 30rem;
+}
+.activite-6{
+  margin-right: 30rem;
+}
+.text-3{
+  margin-right: 20rem;
+}
+.btn-1{
+  margin-right: 20rem;
+}
+.container{
+  width: 120rem;
+}
+.contact{
+width: 160rem;
+}
+.footer{
+  width: 160rem;
+  display: flex;
+  justify-content: center;
+}
+.footer-2{
+  width: 160rem;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+}
+@media (min-width:1600px) and (max-width:1900px){
+  .allah{
+    margin-right: 30rem;
+  }
+  .video2{
+    margin-right: 30rem;
+    width: 110rem;
+  }
+  .overlay{
+    margin-right: 30rem;
+  }
+  .activite-1{
+    margin-right: 30rem;
+  }
+  .activite-6{
+    margin-right: 30rem;
+  }
+  .text-3{
+    margin-right: 20rem;
+  }
+  .btn-1{
+    margin-right: 20rem;
+  }
+ 
+  
+}
+@media (min-width:1440px) and (max-width:1599.9px){
+ 
+  .containera{
+    width: 95rem;
+    
+  }
+  .allah{
+    margin-right: 5rem;
+  }
+  .video2{
+    width: 95rem;
+   
+    
+  }
+  .overlay{
+    margin-left: 20rem;
+  }
+  .mid{
+    display: flex;
+    justify-content: flex-start;
+
+  }
+  .activite-1{
+    margin-right: 30rem;
+  }
+  .activite-6{
+    margin-right: 30rem;
+  }
+  .contact{
+    margin-right: 30rem;
+  }
+ 
+}
+@media (min-width:1024.1px) and (max-width:1366px) {
+  .App{
+    max-width:100%;
+    overflow-x: hidden !important;
+  }
+  body{
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .imagea img{
+    height: 10rem;
+  }
+  .texts h1{
+    font-size: 2rem;
+    margin-bottom: 4.5rem;
+    
+  }
+  .allah a{
+    font-size: 1rem;
+    
+  }
+  .mid{
+    height: 30rem;
+  }
+  .containera{
+    height: 15rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .video2{
+    width: 100rem;
+    height: 30rem;
+    
+  }
+  .explain-2{
+    font-size: 3.5rem;
+    margin-right: 20rem;
+  }
+  .explain{
+    font-size: 2rem;
+    width: 60rem;
+  }
+  .container {
+    width: 80rem;
+    gap:5rem;
+   }
+   .image2 img{
+    width: 40rem;
+  }
+  .eda{
+    height: 22rem;
+  }
+ .activite{
+  width: 85rem;
+
+ }
+ .activite-6{
+  gap:3rem;
+ }
+ .text-2{
+  min-width: 30rem;
+ }
+ .contact{
+  width: 85rem;
+ }
+ .footer{
+  width: 100%;
+  padding-right: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+ }
+ .frame{
+  font-size: 100%;
+ }
+ .footer-2{
+  width: 85rem;
+ }
+}
+@media (min-width:768.1px) and (max-width: 1024px){
+  .imagea img{
+    height: 12rem;
+  }
+  .texts h1{
+    font-size: 2.5rem;
+    margin-bottom: 4.8rem;
+  }
+  
+  .allah a{
+    font-size: 2rem;
+  }
+  .containera{
+    height: 20rem;
+    width: 150rem;
+    display: flex;
+    align-items: center;
+  }
+  .video2{
+    width: 180rem;
+    height: 40rem;
+  }
+  .explain-2{
+    font-size: 5rem;
+  }
+  .activite{
+    width: 85rem;
+   
+  
+   }
+   .activite-6{
+    gap: 10rem;
+    margin-left: 15rem;
+   }
+   .text-2{
+    min-width: 40rem;
+   }
+  .explain{
+    font-size: 3rem;
+    width: 90rem;
+  }
+  .mid{
+    height: 39rem;
+  }
+  .bg{
+    font-size: 4rem;
+  }
+  .ok{
+    width: 45rem;
+    height: 8rem;
+  }
+  .ok img{
+    height: 5.5rem;
+  }
+ .container {
+  width: 120rem;
+ }
+ .propos h2{
+  font-size: 3.5rem;
+ }
+ .description p{
+  font-size: 3.5rem;
+  width: 70rem;
+ }
+.image2 img{
+  width: 100%;
+}
+.btn{
+  width: 35rem;
+  height: 6rem;
+  font-size: 3.5rem;
+}
+ .container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+.activite-1 h1{
+  font-size: 3.5rem;
+}
+.activite-2 h2{
+  font-size: 3rem;
+}
+.activite-3 h2{
+  font-size: 3rem;
+}
+.activite-4 h2{
+  font-size: 3rem;
+}
+.activite-5 h2{
+  font-size: 3rem;
+}
+.text-2{
+  font-size: 2.5rem;
+  width: 60rem;
+}
+.text-3{
+  font-size:4rem ;
+}
+.ads img{
+  height: 6rem ;
+}
+.btn-1{
+  visibility: hidden;
+}
+.frame{
+  display: none;
+}
+.contact{
+  min-width: 150rem;
+}
+.footer-2{
+  min-width: 150rem;
+}
+.footer-3 h2{
+  font-size: 4rem;
+}
+.socials-2{
+  font-size: 3rem;
+}
+
+.footer-4 h2{
+  font-size: 4rem;
+}
+.footer-4 h3{
+  font-size: 3rem;
+}
+.footer-3 a img{
+  width: 6rem;
+}
+.dropdown-content{
+  padding-right: 20rem;
+  min-height: 50rem;
+  gap:10rem
+}
+}
+@media (min-width:600.1px) and (max-width: 768px){ 
+  .imagea img{
+    height: 20rem;
+  }
+  .texts h1{
+    font-size: 2.5rem;
+    margin-bottom: 4.8rem;
+  }
+  .texts{
+    display: flex;
+    align-items: center;
+  }
+  .allah a{
+    font-size: 2rem;
+  }
+  .containera{
+    height: 20rem;
+    width: 125rem;
+  }
+  .video2{
+    width: 130rem;
+    height: 40rem;
+  }
+  .explain-2{
+    font-size: 5rem;
+  }
+  .explain{
+    font-size: 3rem;
+    width: 90rem;
+  }
+  .mid{
+    height: 39rem;
+  }
+  .bg{
+    font-size: 4rem;
+  }
+  .ok{
+    width: 45rem;
+    height: 8rem;
+  }
+  .ok img{
+    height: 5.5rem;
+  }
+ .container {
+  width: 120rem;
+ }
+ .propos h2{
+  font-size: 3.5rem;
+ }
+ .description p{
+  font-size: 3.5rem;
+  width: 70rem;
+ }
+.image2 img{
+  width: 100%;
+}
+.btn{
+  width: 35rem;
+  height: 6rem;
+  font-size: 3.5rem;
+}
+ .container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+.activite-1 h1{
+  font-size: 3.5rem;
+}
+.activite-2 h2{
+  font-size: 3rem;
+}
+.activite-3 h2{
+  font-size: 3rem;
+}
+.activite-4 h2{
+  font-size: 3rem;
+}
+.activite-5 h2{
+  font-size: 3rem;
+}
+.text-2{
+  font-size: 2.5rem;
+  width: 60rem;
+}
+.text-3{
+  font-size:4rem ;
+}
+.ads img{
+  height: 6rem ;
+}
+.btn-1{
+  visibility: hidden;
+}
+.frame{
+  display: none;
+}
+.footer-3 h2{
+  font-size: 4rem;
+}
+.socials-2{
+  font-size: 3rem;
+}
+.footer-4 h2{
+  font-size: 4rem;
+}
+.footer-4 h3{
+  font-size: 3rem;
+}
+.footer-3 a img{
+  width: 6rem;
+}
+.dropdown-content{
+  padding-right: 20rem;
+  min-height: 50rem;
+  gap:10rem
+}
+ }
+
+@media(min-width:380.1px) and (max-width:600px){
+  .App{
+    max-width:100rem;
+    height: 100%;
+    overflow-x: hidden !important;
+  }
+  body{
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .containera{
+    max-width: 100rem;  
+    padding: 0;
+    margin: 0;
+    height: 25rem;
+    gap:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: red;
+   }
+   .imagea img{
+    height:100%;
+   }
+   
+   .texts h1{
+    color:white;
+    font-family: Calibri;
+    width: 100%;
+    height: 100%;
+    font-size: 3em;
+  }
+  .texts{
+    width: fit-content;
+    visibility: hidden;
+  }
+ .allah{
+width: 70rem;
+ }
+  .allah a{
+  font-size:2.2rem;
+  z-index:10000;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-height: 60rem;
+  gap:11rem;
+  z-index: 1;
+  padding-right: 20rem;
+}
+  .curva{
+    color: black;
+    text-align: center;
+    padding-right:10rem; 
+    font-size: 2rem;
+  }
+ 
+  .dropdown-content a{
+    width: 16rem;
+    height: 5rem;
+  }
+  .dropdown-content-1 a{
+    font-size: 2.5rem;
+  }
+  .dropdown-content-1{
+    gap:9rem;
+    
+  }
+  .mid {
+    height:25rem;
+    padding-bottom: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   width: 100rem;
+    color:white;
+    font-size: 1rem;
+
+  }
+  .overlay{
+    animation: slideleft 1s forwards;
+    animation-duration: 1s;
+  }
+  .video2{
+    position: absolute;
+    z-index: -1;
+    height:70rem;
+    width: 100rem;
+    object-fit: cover;
+   }
+   .explain-2{
+    font-weight: 900;
+    font-size: 4rem;
+    padding-top: 20rem;
+  }
+  .explain{
+    width:70rem;
+    font-weight: 600;
+    font-size: 3.5rem;
+    text-align: left;
+    animation: slideright 1s forwards;
+    animation-duration: 2s;
+     
+   }
+   .ok{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 45rem;
+    gap:7px;
+    font-size: 3.5rem;
+    height: 10rem;
+    float: left;
+    background-color: red;
+    border-radius: 30px;
+  }
+  .ok img{
+    height: 7rem;
+  }
+  .bg{
+    color:white;
+  }
+  .container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .eda{
+    padding-right: 550px;
+    padding-top:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .propos{
+    color: red;
+    font-size: 3rem;
+    }
+    .description p{
+      font-size: 3rem;
+      text-align: left;
+      width: 60rem;
+    }
+    .btn{
+      background-color: red;
+      border-radius: 30px;
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width:20rem;
+      height:10rem;
+      cursor: pointer;
+      font-size: 2.5rem;
+    }
+    .image2 img{
+      width: 80rem;
+    }
+   
+    .activite{
+      display: flex;
+      align-items:center;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .activite-6{
+      display: flex;
+      flex-direction: column;
+    }
+    .activite-1 h1{
+      font-size: 4rem;
+      width: 50rem;
+    }
+    .activite-2 h2{
+      font-size: 3rem;
+    }
+    .activite-3 h2{
+      font-size: 3rem;
+    }
+    .activite-4 h2{
+      font-size: 3rem;
+    }
+    .activite-5 h2{
+      font-size: 3rem;
+    }
+    .text-2{
+      font-size: 3rem;
+      width: 80rem;
+     
+    }
+    .contact{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: red;
+      color: white;
+      width: 100rem;
+    }
+    .alt{
+      height: 7rem;
+    }
+    .text-3{
+      font-size: 4rem;
+    }
+.btn-1{
+  width: 0rem;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  visibility: hidden;
+}
+
+.text-4{
+  font-size: 2rem;
+}
+.footer{
+  display: flex;
+  width: 100rem;
+  padding-right: 2rem;
+  flex-wrap: wrap;
+  justify-content:flex-end; 
+  background-color: red;
+}
+.frame p{
+font-size: 2.1rem;
+text-align: center;
+}
+.frame{
+ display: flex;
+width: 100%;
+ align-items: flex-start;
+ justify-content: center;
+ display:none;
+}
+.frame:last-child{
+  margin-right: 27rem;
+}
+.frame:nth-child(6){
+  margin-left: 28rem;
+}
+.frame:nth-child(6) p{
+ text-align: left;
+}
+.frame:nth-child(1){
+  margin-left: 14rem;
+}
+.frame:nth-child(5){
+  margin-right: 10rem;
+}
+.footer-2{
+  display: flex;
+  width: 100rem;
+  justify-content: center;
+  background-color: red;
+  text-align: left;
+}
+.footer-3 h2{
+font-size: 3rem;
+}
+.footer-3 h3{
+font-size: 2.5rem;
+}
+.footer-3 a img{
+width: 5rem;
+}
+.footer-4 h2{
+  font-size: 3rem;
+}
+.footer-4 h3{
+  font-size: 2.5rem;
+}
+}
+@media(max-width:380px){
+  .App{
+    max-width:80rem;
+    height: 100%;
+    overflow-x: hidden !important;
+    
+  }
+  body{
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .containera{
+    max-width: 100rem;  
+    padding: 0;
+    margin: 0;
+    height: 25rem;
+    gap:2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: red;
+   }
+   
+   
+   .texts h1{
+    color:white;
+    font-family: Calibri;
+    width: 100%;
+    height: 100%;
+    font-size: 3em;
+  }
+  .texts{
+    width: fit-content;
+    visibility: hidden;
+  }
+ .allah{
+width: 80rem;
+ }
+  .allah a{
+  font-size:2rem;
+  z-index:10000;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-height: 60rem;
+  gap:11rem;
+  z-index: 1;
+  padding-right: 20rem;
+}
+  .curva{
+    color: black;
+    text-align: center;
+    padding-right:10rem; 
+    font-size: 2rem;
+  }
+ 
+  .dropdown-content a{
+    width: 16rem;
+    height: 5rem;
+  }
+  .dropdown-content-1 a{
+    font-size: 2.5rem;
+  }
+  .dropdown-content-1{
+    gap:9rem;
+    
+  }
+  .mid {
+    height:25rem;
+    padding-bottom: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   width: 100rem;
+    color:white;
+    font-size: 1rem;
+
+  }
+  .overlay{
+    animation: slideleft 1s forwards;
+    animation-duration: 1s;
+  }
+  .video2{
+    position: absolute;
+    z-index: -1;
+    height:70rem;
+    width: 100rem;
+    object-fit: cover;
+   }
+   .explain-2{
+    font-weight: 900;
+    font-size: 4rem;
+    padding-top: 20rem;
+  }
+  .explain{
+    width:70rem;
+    font-weight: 600;
+    font-size: 3.5rem;
+    text-align: left;
+    animation: slideright 1s forwards;
+    animation-duration: 2s;
+     
+   }
+   .ok{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 45rem;
+    gap:7px;
+    font-size: 3.5rem;
+    height: 10rem;
+    float: left;
+    background-color: red;
+    border-radius: 30px;
+  }
+  .ok img{
+    height: 7rem;
+  }
+  .bg{
+    color:white;
+  }
+  .container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .eda{
+    padding-right: 550px;
+    padding-top:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .propos{
+    color: red;
+    font-size: 3rem;
+    }
+    .description p{
+      font-size: 3rem;
+      text-align: left;
+      width: 60rem;
+    }
+    .btn{
+      background-color: red;
+      border-radius: 30px;
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width:20rem;
+      height:10rem;
+      cursor: pointer;
+      font-size: 2.5rem;
+    }
+    .image2 img{
+      width: 70rem;
+      padding-right: 8rem;
+    }
+   
+    .activite{
+      display: flex;
+      align-items:center;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .activite-6{
+      display: flex;
+      flex-direction: column;
+    }
+    .activite-1 h1{
+      font-size: 4rem;
+      width: 50rem;
+    }
+    .activite-2 h2{
+      font-size: 3rem;
+    }
+    .activite-3 h2{
+      font-size: 3rem;
+    }
+    .activite-4 h2{
+      font-size: 3rem;
+    }
+    .activite-5 h2{
+      font-size: 3rem;
+    }
+    .text-2{
+      font-size: 3rem;
+      width: 80rem;
+      padding-right: 3rem;
+    }
+    .contact{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: red;
+      color: white;
+      width: 100rem;
+    }
+    .alt{
+      height: 7rem;
+    }
+    .text-3{
+      font-size: 4rem;
+    }
+.btn-1{
+  width: 0rem;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  visibility: hidden;
+}
+
+.text-4{
+  font-size: 2rem;
+}
+.footer{
+  display: flex;
+  width: 100rem;
+  padding-right: 2rem;
+  flex-wrap: wrap;
+  justify-content:flex-end; 
+  background-color: red;
+}
+.frame p{
+font-size: 2.1rem;
+text-align: center;
+}
+.frame{
+ display: flex;
+width: 100%;
+ align-items: flex-start;
+ justify-content: center;
+ display:none;
+}
+.frame:last-child{
+  margin-right: 27rem;
+}
+.frame:nth-child(6){
+  margin-left: 28rem;
+}
+.frame:nth-child(6) p{
+ text-align: left;
+}
+.frame:nth-child(1){
+  margin-left: 14rem;
+}
+.frame:nth-child(5){
+  margin-right: 10rem;
+}
+.footer-2{
+  display: flex;
+  width: 100rem;
+  justify-content: center;
+  background-color: red;
+  text-align: left;
+}
+.footer-3 h2{
+font-size: 3rem;
+}
+.footer-3 h3{
+font-size: 2.5rem;
+}
+.footer-3 a img{
+width: 5rem;
+}
+.footer-4 h2{
+  font-size: 3rem;
+}
+.footer-4 h3{
+  font-size: 2.5rem;
+}
+
+}
+
+
+
+ 
+
+
+
+

@@ -1,0 +1,299 @@
+
+.App {
+
+    text-align: center;
+    width:1920px;
+   
+   
+    
+    
+  }
+.flex-container{
+ 
+    height:190px;
+    background-color: red;
+    
+     
+   
+    
+   
+    
+   }
+   .image{
+  
+    float:left;
+    padding-top:17px;
+    padding-left:300px;
+  }
+  .texts{
+    float:left;
+    padding-top:48px;
+    padding-left:80px;
+    color:white;
+    font-family: Calibri;
+    
+  
+  }
+  .menu{
+    width:500px;
+    display:flex;
+    justify-content: space-between;
+    padding-top:78px;
+    padding-left:300px;
+    padding-right:70px;
+  }
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width:650px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-weight: 600;
+    
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+  .linka-2{
+    color:white;
+    cursor:pointer;
+    
+    
+    
+    
+  }
+  .linka-2:hover .dropdown-content{
+   display: flex;
+  flex-direction: row;
+  
+  
+  
+   
+  }
+  .dropdown-content-1{
+  display: inline-block;
+  width:200px;
+  text-align:left;
+  
+  
+   
+   
+  }
+  
+  
+  .curva{
+    color: black;
+    text-align: center;
+    padding-right:30px;
+   
+    
+  }
+  .qui{
+    color:black;
+    width:900px;
+    padding-left: 300px;
+    text-align: left;
+   
+    
+
+  }
+  .qui-2{
+    font-size: 45px;
+    font-weight: 900;
+  }
+  .qui-3{
+    text-align: left;
+    font-size:25px;
+  }
+  .buttons{
+    
+    background-color: red;
+    width:320px;
+    margin-left: 280px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    
+  }
+  .linka-3{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+  }
+  .linka-3:hover{
+    color:black;
+    
+  }
+  .buttons:hover{
+    background-color: white;
+  }
+  
+  
+  .buttons-2{
+    display: flex;
+    text-align: center;
+    width: 600;
+    padding-top: 30px;
+    cursor: pointer;
+    
+    
+  }
+  .nous-contacter{
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap:30px;
+  }
+  .footer{
+    display: flex;
+    justify-content: space-between; 
+    background-color: red;
+   
+    
+  }
+  .frame{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 60px;
+    border-radius: 30px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-top: 30px;
+  }
+  .footer-2{
+    display: flex;
+    justify-content: center;
+   
+    
+   
+  }
+  @media (min-width:1440px) and (max-width:1600px){
+    .text-2{
+      width: 20rem;
+     
+    }
+    .nous-contacter{
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 2rem;
+    }
+  }
+@media (min-width:1024.1px) and (max-width:1366px){
+    .qui{
+      width: 85rem;
+    }
+    .qui-2{
+      font-size: 3rem;
+      width: 60rem;
+    }
+    .qui-3{
+      width: 60rem;
+    }
+   .nous-contacter{
+    width: 85rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 6.5rem;
+   }
+   .text-2{
+    width: 10rem;
+   }
+   
+    
+    
+}
+@media (min-width:768.1px) and (max-width: 1024px){
+
+}
+  @media (min-width:600.03px) and (max-width: 768px){
+    .imagea img{
+      height: 20rem;
+    }
+    .texts h1{
+      font-size: 2.5rem;
+      margin-bottom: 4.8rem;
+    }
+    .texts{
+      display: flex;
+      align-items: center;
+    }
+    .allah a{
+      font-size: 2rem;
+    }
+    .containera{
+      height: 20rem;
+      width: 125rem;
+    }
+  }
+  @media(max-width:600px){
+    .App{
+      max-width:100rem;
+      height: 100%;
+      overflow-x: hidden !important;
+    }  
+    .qui{
+      color:black;
+      width: 90rem;
+      padding-left: 1rem;
+    }
+    .qui-2{
+      font-size: 4rem;
+      font-weight: 900;
+      width: 80rem;
+    }
+    .qui-3{
+      text-align: left;
+      font-size:3rem;
+    }
+    .buttons-2{
+      width: 85rem;
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .buttons{
+      width: 25rem;
+      padding-left: 1rem;
+    }
+    .linka-3{
+      font-size: 3rem;
+    }
+    .nous-contacter{
+      width: 100%;
+      padding-top: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap:30px;
+    }
+    .activite-2 h2{
+    font-size: 4rem;
+    }
+    .activite-3 h2{
+      font-size: 4rem;
+          }
+    .activite-4 h2{
+            font-size: 4rem;
+                }
+   .activite-5 h2{
+                  font-size: 4rem;
+       }
+       .text-2{
+        width: 80rem;
+        text-align: left;
+        font-size: 3rem;
+       }
+     
+  }
+  

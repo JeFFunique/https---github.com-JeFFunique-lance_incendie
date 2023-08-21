@@ -1,0 +1,28 @@
+li{
+   list-style: none;
+}
+input{
+    color: black;
+}
+.jtm{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: red;
+   justify-content: flex-start;
+   gap:35%;
+}
+
+.vba{
+    width:300px;
+}
+.adr{
+    display: flex;
+   flex-direction: row;
+}
+
